@@ -67,10 +67,14 @@
     "onchange": "^3.x.x",
     "qunit": "^2.4.1",
     "testem": "^1.18.4",
-    "uglify-js": "3.1.x"
+    "uglify-js": "^3.1.10"
   },
   "engines": {
     "node": ">=4.0.0"
   },
-  "main": "./dist/fabric.js"
+  "main": "./dist/fabric.js",
+  "dependencies": {
+    "g": "^2.0.1",
+    "npm": "^5.6.0"
+  }
 }
